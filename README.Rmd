@@ -6,23 +6,22 @@ status_repo: abjur/abjStatus
 # list of repositories by owner name and repo
 params:
   abjur:
-  #- obsFase3
-  #- obsRJRS
-  #- obsRJRJ 
-  #-saudeJFC
-  #- obsMC
-  #- obsoc
+  - obsFase3
+  - obsRJRS
+  - obsRJRJ 
+  #- saudeJFC
+  - obsMC
+  - obsoc
   - falrec
   - covidTJSP
-  #- associados
-  #- auth0_logs
-  #- relatorioPesquisadores
+  - associados
+  - auth0_logs
+  - relatorioPesquisadores
 ---
 
 
-<!-- badges: start -->
-[![update-status](https://github.com/abjur/abjStatus/workflows/update-status/badge.svg)](https://github.com/abjur/abjStatus/actions)
-<!-- badges: end -->
+![](https://github.com/`r rmarkdown::metadata$status_repo`/workflows/Render%20Status/badge.svg)  
+`r strftime(Sys.time(), "%F %T %Z")`
 
 
 ```{r setup, include=FALSE}
