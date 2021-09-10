@@ -6,7 +6,7 @@ status_repo: abjur/abjStatus
 # list of repositories by owner name and repo
 params:
   abjur:
-  - obsFase3
+  #- obsFase3
   - obsRJRS
   - obsRJRJ 
   #-saudeJFC
