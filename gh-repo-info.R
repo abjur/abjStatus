@@ -20,7 +20,7 @@
 #'
 #' @export
 gh_workflows <- memoise::memoise(function(owner, repo, ...) {
-  gh::gh("/repos/{owner}/{repo}/actions/workflows", owner = owner, repo = repo) %>%
+  gh::gh("/repos/{owner}/{repo}/actions/workflows", owner = owner, repo = repo, private = TRUE) %>%
     .$workflows
 }, cache =  memoise::cache_memory())
 
@@ -40,8 +40,9 @@ gh_runs <- memoise::memoise(function(owner, repo, workflow_id, ...) {
     owner = owner,
     repo = repo,
     workflow_id = workflow_id,
-    per_page = 1
-  )$workflow_runs[[1]]
+    per_page = 1,
+    private = TRUE
+    )$workflow_runs[[1]]
 }, cache = memoise::cache_memory())
 
 #' gh_url
