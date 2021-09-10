@@ -38,7 +38,7 @@ repos <- gh_get_repo_status(params)
 ```{r repo-status}
 repos %>% 
   dplyr::select_if(negate(is.list)) %>%
-  dplyr::arrange(run_conclusion, repo_name) %>% 
+  dplyr::arrange(repo_name) %>% 
   dplyr::mutate(
     commit_message = map_chr(commit_message, ~ strsplit(.x, "\n")[[1]][1]),
     commit_id_6 = substr(commit_id, 1, 6)
