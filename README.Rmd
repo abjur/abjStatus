@@ -7,16 +7,16 @@ status_repo: abjur/abjStatus
 params:
   abjur:
   #- obsFase3
-  - obsRJRS
-  - obsRJRJ 
+  #- obsRJRS
+  #- obsRJRJ 
   #-saudeJFC
-  - obsMC
-  - obsoc
+  #- obsMC
+  #- obsoc
   - falrec
   - covidTJSP
-  - associados
-  - auth0_logs
-  - relatorioPesquisadores
+  #- associados
+  #- auth0_logs
+  #- relatorioPesquisadores
 ---
 
 
