@@ -1,4 +1,4 @@
-GitHub Dashboard
+GitHub Actions
 ================
 
 <!-- badges: start -->
