@@ -14,12 +14,6 @@ abjur,obsRJRJ,3877327,https://github.com/abjur/obsRJRJ/workflows/deploy/badge.sv
 abjur,obsRJRJ,2965090,https://github.com/abjur/obsRJRJ/workflows/update-data/badge.svg,https://github.com/abjur/obsRJRJ/actions/runs/891764492,failure,ubuntu 18,f6ed50b13091bd47c59771df7758c55d412f144b,abjur/obsRJRJ,https://github.com/abjur/obsRJRJ,0,0,0,0
 abjur,obsRJRS,4738565,https://github.com/abjur/obsRJRS/workflows/deploy/badge.svg,https://github.com/abjur/obsRJRS/actions/runs/1340314728,success,update template relatório (close #11),2cf4721cbdd54db9c0b9fdcdc840532fcc3472c4,abjur/obsRJRS,https://github.com/abjur/obsRJRS,0,0,2,0
 abjur,obsRJRS,4738566,https://github.com/abjur/obsRJRS/workflows/update-data/badge.svg,https://github.com/abjur/obsRJRS/actions/runs/1350957167,success,update template relatório (close #11),2cf4721cbdd54db9c0b9fdcdc840532fcc3472c4,abjur/obsRJRS,https://github.com/abjur/obsRJRS,0,0,2,0
-abjur,prazos,13983105,https://github.com/abjur/prazos/workflows/update-readme/badge.svg,https://github.com/abjur/prazos/actions/runs/1354528488,success,"merge conflict
-
-Merge branch 'main' of github.com:abjur/prazos into main
-
-# Conflicts:
-#	README.md
-#	man/figures/README-gantt-1.png",4c6d83a251d3be915d053719460e7356d103a63b,abjur/prazos,https://github.com/abjur/prazos,0,0,0,0
+abjur,prazos,13983105,https://github.com/abjur/prazos/workflows/update-readme/badge.svg,https://github.com/abjur/prazos/actions/runs/1355001715,success,atualiza as estimativas,2299272a129cf5683a3ae080819cbcd655959d63,abjur/prazos,https://github.com/abjur/prazos,0,0,0,0
 abjur,relatorioPesquisadores,11128749,https://github.com/abjur/relatorioPesquisadores/workflows/update-data/badge.svg,https://github.com/abjur/relatorioPesquisadores/actions/runs/1353669455,success,retorna para o script inicial,9b3b41c1b810b959a71b5b44f4f1b27bc4854903,abjur/relatorioPesquisadores,https://github.com/abjur/relatorioPesquisadores,0,0,0,0
 abjur,saudeJFCE,10562352,https://github.com/abjur/saudeJFCE/workflows/deploy/badge.svg,https://github.com/abjur/saudeJFCE/actions/runs/1347612553,success,ideia scraper,3a0bbd1c7b00cdf38e8d73e55100b1f7bc74862a,abjur/saudeJFCE,https://github.com/abjur/saudeJFCE,0,0,2,0
