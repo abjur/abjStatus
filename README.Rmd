@@ -17,6 +17,7 @@ params:
   - associados
   - auth0_logs
   - relatorioPesquisadores
+  - abjMktAnalytics
 ---
 
 ![](https://github.com/`r rmarkdown::metadata$status_repo`/workflows/Render%20Status/badge.svg)  
