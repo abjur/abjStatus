@@ -81,7 +81,7 @@ gh_get_repo_status <- function(repos) {
   repos <- repos %>%
     dplyr::mutate(
       html_url_run = purrr::map_chr(runs, "html_url"),
-      run_conclusion = purrr::map_chr(runs, "conclusion"),
+      run_conclusion = purrr::map_chr(runs, ~{if(is.null(.x[["conclusion"]])) "" else .x[["conclusion"]]}),
       commit_message = purrr::map_chr(runs, ~ .x$head_commit$message),
       commit_id = purrr::map_chr(runs, `[[`, c("head_commit", "id")),
       repo_name = purrr::map_chr(runs, `[[`, c("head_repository", "full_name")),
@@ -95,7 +95,7 @@ gh_get_repo_status <- function(repos) {
     )
 
   repos %>%
-    dplyr::select_if(negate(is.list)) %>%
+    dplyr::select(-where(is.list)) %>%
     dplyr::arrange(repo_name) %>%
     readr::write_csv("repos.csv")
 
