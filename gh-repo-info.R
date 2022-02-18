@@ -18,6 +18,7 @@
 #' @param repo repository's name
 #' @param ... others paramaters
 #'
+#' @return
 #' @export
 gh_workflows <- memoise::memoise(function(owner, repo, ...) {
   gh::gh("/repos/{owner}/{repo}/actions/workflows", owner = owner, repo = repo, private = TRUE) %>%
@@ -32,7 +33,7 @@ gh_workflows <- memoise::memoise(function(owner, repo, ...) {
 #' @param repo repository's name
 #' @param workflow_id workflow id
 #' @param ... others paramaters
-#'
+#' @return
 #' @export
 gh_runs <- memoise::memoise(function(owner, repo, workflow_id, ...) {
   gh::gh(
@@ -50,7 +51,7 @@ gh_runs <- memoise::memoise(function(owner, repo, workflow_id, ...) {
 #' Function to create a memorized copy of the repository url.
 #'
 #' @param url repository's url
-#'
+#' @return
 #' @export
 gh_url <- memoise::memoise(function(url) {
   gh::gh(url)
@@ -64,7 +65,7 @@ gh_url <- memoise::memoise(function(url) {
 #' Function that creates csv with status repositories.
 #'
 #' @param repos list of repositories
-#'
+#' @return
 #' @export
 gh_get_repo_status <- function(repos) {
   repos <- purrr::map_dfr(repos, ~ tibble::tibble(repo = .), .id = "owner")
