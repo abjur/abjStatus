@@ -15,7 +15,7 @@ params:
   - falrec
   - covidTJSP
   - associados
-  - auth0_logs
+  - authLogs
   - relatorioPesquisadores
   - abjMktAnalytics
 ---
