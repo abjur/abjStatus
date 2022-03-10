@@ -18,6 +18,7 @@ params:
   - authLogs
   - relatorioPesquisadores
   - abjMktAnalytics
+  - obsDash
 ---
 
 ![](https://github.com/`r rmarkdown::metadata$status_repo`/workflows/Render%20Status/badge.svg)  
