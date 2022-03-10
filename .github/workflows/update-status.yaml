@@ -37,10 +37,9 @@ jobs:
       - name: Check
         run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
-      - name: Render Status Page
+      - name: Execute Script
         run: |
-          RMD_PATH=$(ls -r *.Rmd)
-          Rscript -e 'for (file in commandArgs(TRUE)) rmarkdown::render(file)' ${RMD_PATH[*]}
+          Rscript "data-raw/update.R"
       - name: Commit results
         run: |
           git config --local user.email "actions@github.com"
