@@ -36,14 +36,20 @@ gh_workflows <- memoise::memoise(function(owner, repo, ...) {
 #' @return
 #' @export
 gh_runs <- memoise::memoise(function(owner, repo, workflow_id, ...) {
-  gh::gh(
+  lst <- gh::gh(
     "/repos/{owner}/{repo}/actions/workflows/{workflow_id}/runs",
     owner = owner,
     repo = repo,
     workflow_id = workflow_id,
     per_page = 1,
     private = TRUE
-    )$workflow_runs[[1]]
+    )$workflow_runs
+
+  if (length(lst) > 0) {
+    lst <- lst[[1]]
+  }
+  lst
+
 }, cache = memoise::cache_memory())
 
 #' gh_url
@@ -68,7 +74,10 @@ gh_url <- memoise::memoise(function(url) {
 #' @return
 #' @export
 gh_get_repo_status <- function(repos) {
+
+
   repos <- purrr::map_dfr(repos, ~ tibble::tibble(repo = .), .id = "owner")
+  # repos$repo
 
   repos$workflows <- repos %>% purrr::pmap(gh_workflows)
   repos <- repos %>%
@@ -79,7 +88,9 @@ gh_get_repo_status <- function(repos) {
     )
 
   repos$runs <- purrr::pmap(repos, gh_runs)
+  # browser()
   repos <- repos %>%
+    dplyr::filter(purrr::map_int(runs, length) > 0) %>%
     dplyr::mutate(
       html_url_run = purrr::map_chr(runs, "html_url"),
       run_conclusion = purrr::map_chr(runs, ~{if(is.null(.x[["conclusion"]])) "" else .x[["conclusion"]]}),
