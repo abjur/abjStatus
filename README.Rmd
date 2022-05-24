@@ -33,6 +33,7 @@ library(glue)
 ```
 
 ```{r gh-get-repos}
+# agora lidando com runs vazios
 source("gh-repo-info.R")
 repos <- gh_get_repo_status(params)
 ```
