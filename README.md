@@ -1,5 +1,5 @@
 ![](https://github.com/abjur/abjStatus/workflows/Render%20Status/badge.svg)
-2022-11-16 09:09:42 UTC
+2022-11-17 09:08:44 UTC
 
 | Repo                                                                            | Name          |  Stars|  Issues| Status                                                                                                                                                                     |
 |:--------------------------------------------------------------------------------|:--------------|------:|-------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -7,7 +7,7 @@
 | [abjur/abjMaps](https://github.com/abjur/abjMaps)                               | R-CMD-check   |     13|       0| [![R-CMD-check](https://github.com/abjur/abjMaps/workflows/R-CMD-check/badge.svg)](https://github.com/abjur/abjMaps/actions/runs/541182161)                                |
 | [abjur/abjutils](https://github.com/abjur/abjutils)                             | R-CMD-check   |     42|       0| [![R-CMD-check](https://github.com/abjur/abjutils/workflows/R-CMD-check/badge.svg)](https://github.com/abjur/abjutils/actions/runs/1779645783)                             |
 | [abjur/associados](https://github.com/abjur/associados)                         | deploy        |      0|       0| [![deploy](https://github.com/abjur/associados/workflows/deploy/badge.svg)](https://github.com/abjur/associados/actions/runs/1989734689)                                   |
-| [abjur/authLogs](https://github.com/abjur/authLogs)                             | update        |      0|       0| [![update](https://github.com/abjur/authLogs/workflows/update/badge.svg)](https://github.com/abjur/authLogs/actions/runs/3475882361)                                       |
+| [abjur/authLogs](https://github.com/abjur/authLogs)                             | update        |      0|       0| [![update](https://github.com/abjur/authLogs/workflows/update/badge.svg)](https://github.com/abjur/authLogs/actions/runs/3484844839)                                       |
 | [abjur/cnc](https://github.com/abjur/cnc)                                       | R-CMD-check   |     10|       0| [![R-CMD-check](https://github.com/abjur/cnc/workflows/R-CMD-check/badge.svg)](https://github.com/abjur/cnc/actions/runs/2665598388)                                       |
 | [abjur/cnc](https://github.com/abjur/cnc)                                       | pkgdown       |     10|       0| [![pkgdown](https://github.com/abjur/cnc/workflows/pkgdown/badge.svg)](https://github.com/abjur/cnc/actions/runs/2665598386)                                               |
 | [abjur/falrec](https://github.com/abjur/falrec)                                 | update-data   |      1|       0| [![update-data](https://github.com/abjur/falrec/workflows/update-data/badge.svg)](https://github.com/abjur/falrec/actions/runs/3454071562)                                 |
