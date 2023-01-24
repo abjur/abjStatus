@@ -6,7 +6,7 @@ abjur,abjutils,19010584,https://github.com/abjur/abjutils/workflows/pages-build-
 abjur,associados,3211925,https://github.com/abjur/associados/workflows/deploy/badge.svg,https://github.com/abjur/associados/actions/runs/1989734689,success,"Merge pull request #1 from abjur/levantamentos
 
 Levantamentos",d136b44890fe809559c8cb45f4cfc69db8b1ec50,abjur/associados,https://github.com/abjur/associados,0,0,0,0
-abjur,authLogs,20211622,https://github.com/abjur/authLogs/workflows/update/badge.svg,https://github.com/abjur/authLogs/actions/runs/3982760604,success,Update data,06e9b29fa1485e78f0125d06d4fbf693763d7d72,abjur/authLogs,https://github.com/abjur/authLogs,0,0,0,0
+abjur,authLogs,20211622,https://github.com/abjur/authLogs/workflows/update/badge.svg,https://github.com/abjur/authLogs/actions/runs/3992413959,success,Update data,06e9b29fa1485e78f0125d06d4fbf693763d7d72,abjur/authLogs,https://github.com/abjur/authLogs,0,0,0,0
 abjur,cnc,3357741,https://github.com/abjur/cnc/workflows/R-CMD-check/badge.svg,https://github.com/abjur/cnc/actions/runs/2665598388,success,extra pkg pkgdown,6262db71b46c86696e2ed9134ef2eeddd0a28b64,abjur/cnc,https://github.com/abjur/cnc,10,10,0,3
 abjur,cnc,3357742,https://github.com/abjur/cnc/workflows/pkgdown/badge.svg,https://github.com/abjur/cnc/actions/runs/2665598386,success,extra pkg pkgdown,6262db71b46c86696e2ed9134ef2eeddd0a28b64,abjur/cnc,https://github.com/abjur/cnc,10,10,0,3
 abjur,cnc,30193581,https://github.com/abjur/cnc/workflows/pages-build-deployment/badge.svg,https://github.com/abjur/cnc/actions/runs/2665632323,success,Built site for cnc: 0.0.0.9000@6262db7,ff35e49fd83a2d752ee734014846bbad99c9eb71,abjur/cnc,https://github.com/abjur/cnc,10,10,0,3
