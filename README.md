@@ -1,10 +1,10 @@
 ![](https://github.com/abjur/abjStatus/workflows/Render%20Status/badge.svg)  
-2023-11-21 09:07:03 UTC
+2023-11-22 09:06:52 UTC
 
 | Repo                                                                            | Name        |  Stars|  Issues| Status                                                                                                                                                                     |
 |:--------------------------------------------------------------------------------|:------------|------:|-------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [abjur/abjutils](https://github.com/abjur/abjutils)                             | R-CMD-check |     47|       0| [![R-CMD-check](https://github.com/abjur/abjutils/workflows/R-CMD-check/badge.svg)](https://github.com/abjur/abjutils/actions/runs/3961811675)                             |
-| [abjur/authLogs](https://github.com/abjur/authLogs)                             | update      |      0|       0| [![update](https://github.com/abjur/authLogs/workflows/update/badge.svg)](https://github.com/abjur/authLogs/actions/runs/6938329415)                                       |
+| [abjur/abjutils](https://github.com/abjur/abjutils)                             | R-CMD-check |     48|       0| [![R-CMD-check](https://github.com/abjur/abjutils/workflows/R-CMD-check/badge.svg)](https://github.com/abjur/abjutils/actions/runs/3961811675)                             |
+| [abjur/authLogs](https://github.com/abjur/authLogs)                             | update      |      0|       0| [![update](https://github.com/abjur/authLogs/workflows/update/badge.svg)](https://github.com/abjur/authLogs/actions/runs/6951987335)                                       |
 | [abjur/falrec](https://github.com/abjur/falrec)                                 | update-data |      3|       0| [![update-data](https://github.com/abjur/falrec/workflows/update-data/badge.svg)](https://github.com/abjur/falrec/actions/runs/6918735587)                                 |
 | [abjur/obsCRSFN](https://github.com/abjur/obsCRSFN)                             | app         |      0|       0| [![app](https://github.com/abjur/obsCRSFN/workflows/app/badge.svg)](https://github.com/abjur/obsCRSFN/actions/runs/3275679243)                                             |
 | [abjur/obsCRSFN](https://github.com/abjur/obsCRSFN)                             | update-data |      0|       0| [![update-data](https://github.com/abjur/obsCRSFN/workflows/update-data/badge.svg)](https://github.com/abjur/obsCRSFN/actions/runs/4257190932)                             |
